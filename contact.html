@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoro to seishin clinic</title>
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+    <!-- cabeçalho -->
+    <div class="header"></div>
+
+    <!-- menu -->
+    <div class="menu" >
+        <div id="links">
+            <ul>
+                <li id="link"><a href="home.html">INICIO</a></li>
+                <li id="link"><a href="about.html">SOBRE</a></li>
+                <li id="link"><a href="schedules.html">HORÁRIO</a></li>
+                <li id="link"><a href="contact.html">CONTATO</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- conteúdo -->
+
+    <div class="content">
+
+        <form class="form" name="contact" onsubmit="alert('Mensagem enviada')" method="get"> <!-- Utilizando method="get" apenas para fins experimentais-->
+            <h1 id="kanji">嘱</h1>
+            <br>
+            <div id="line"></div>
+            <label id="ftxt" for=""><strong>NOME</strong></label><input type="text" required>
+            <label id="ftxt" for=""><strong>E-MAIL</strong></label><input type="email" required>
+            <label id="ftxt" for=""><strong>ASSUNTO</strong></label><input type="text" required>
+            <label id="ftxt" for=""><strong>MENSAGEM</strong></label>
+            <textarea name="textarea" id="" cols="65" rows="20" style="resize: none;"></textarea>
+
+            <button id="submit" type="submit">ENVIAR</button>
+            <button id="reset" type="reset">LIMPAR</button>
+        </form>
+        
+        <div id="adressbox">
+            <h3>Endereço</h3>
+            <p>R. Jacob Villain Filho, 2940 - Guarda do Cubatão</p>
+            <iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1050.1428541136754!2d-48.6980935002448!3d-27.709707039400275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273366509c2e99%3A0xb4f2bb10ead0acc9!2sR.%20Jacob%20Villain%20Filho%2C%202940%20-%20Guarda%20do%20Cubat%C3%A3o%2C%20Palho%C3%A7a%20-%20SC%2C%2088140-000!5e0!3m2!1spt-BR!2sbr!4v1712174713836!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        
+    </div>
+    
+    <!-- rodapé -->
+    <div class="footer">
+        <div id="contactbox">
+            <h1><u>Entre em contato</u></h1>
+            <p>(48) 3641-6551</p>
+            <p>(48) 99560-1845</p>
+            <p>kokoroclinc@outlook.com</p>
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
